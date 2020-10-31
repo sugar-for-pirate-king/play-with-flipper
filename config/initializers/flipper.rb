@@ -2,7 +2,7 @@ require 'flipper'
 
 Flipper.configure do |config|
   config.default do
-    # user active records as the flipper adapter.
+    # use active records as the flipper adapter.
     adapter = Flipper::Adapters::ActiveRecord.new
 
     # pass adapter to handy DSL instance
